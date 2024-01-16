@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  animation: fade 1.5s ease-in-out infinite;
+
+}
+.container section{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex: 1;
+}
+button{
+ width: 50px; 
+ height: 50px;
+ cursor: pointer;
+ background: rgb(238, 231, 231);
+ border: none;
+ border-radius: 50%;
+}
+button:hover{
+   background: rgb(161, 120, 120);
+}
+button.previous img{
+  transform: rotate(180deg); 
+}
